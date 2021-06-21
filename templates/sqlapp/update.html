@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS-->
+   <title>Today Updates</title>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZt3saYTlA_cEeBSPVPkvT7rPBtIHzzTWErbQ9EHOpJzW8e-TtMUdWAYnQ4pCmcXd54F7P1YgEJRrvig&usqp=CAU" type="image/x-icon" >
+    <link rel="stylesheet" href="{%static 'css/styles.css' %}">
+    <style>
+    textarea {
+    resize:none;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid black;
+}
+    </style>
+</head>
+<body>
+<label for ="name" style="font-family:'Montserrat', sans-serif">Attendees</label><br>
+<textarea spellcheck="false" name="Enter today's attendees" id="name" cols="20px" rows="18px">
+</textarea>
+</body>
+</html>
